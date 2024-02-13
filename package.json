@@ -4,7 +4,13 @@
   "type": "module",
   "description": "A playground for scripts using LLMs to run small tasks.",
   "scripts": {
-    "lint": "echo \"Error: no test specified\" && exit 1",
-    "format": "echo \"Error: no test specified\" && exit 1"
+    "format": "prettier --write .",
+    "format:ci": "prettier --check .",
+    "lint": "eslint --fix",
+    "lint:ci": "eslint",
+    "lintAndFormat": "npm run lint && npm run format"
+  },
+  "devDependencies": {
+    "prettier": "3.2.5"
   }
 }

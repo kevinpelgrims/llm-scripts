@@ -1,0 +1,10 @@
+{
+  "name": "llm-scripts",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "A playground for scripts using LLMs to run small tasks.",
+  "scripts": {
+    "lint": "echo \"Error: no test specified\" && exit 1",
+    "format": "echo \"Error: no test specified\" && exit 1"
+  }
+}

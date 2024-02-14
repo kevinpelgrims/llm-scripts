@@ -10,6 +10,9 @@
     "lint:ci": "eslint .",
     "lintAndFormat": "npm run lint && npm run format"
   },
+  "dependencies": {
+    "dotenv": "16.4.4"
+  },
   "devDependencies": {
     "eslint": "8.56.0",
     "eslint-config-prettier": "9.1.0",

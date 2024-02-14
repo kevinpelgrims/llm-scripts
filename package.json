@@ -11,7 +11,8 @@
     "lintAndFormat": "npm run lint && npm run format"
   },
   "dependencies": {
-    "dotenv": "16.4.4"
+    "dotenv": "16.4.4",
+    "yargs": "17.7.2"
   },
   "devDependencies": {
     "eslint": "8.56.0",

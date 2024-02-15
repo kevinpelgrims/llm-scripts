@@ -120,7 +120,12 @@ export async function main(argv) {
 
   const commit = JSON.parse(result.response)
 
-  writeCommitMessageToFile(options.file, commit.title, commit.message)
+  if (options.file && fs.existsSync(options.file)) {
+    writeCommitMessageToFile(options.file, commit.title, commit.message)
+  } else {
+    console.log('Generated commit title:', commit.title)
+    console.log('Generated commit message:', '\n', commit.message)
+  }
 
   return 0
 }

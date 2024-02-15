@@ -15,7 +15,7 @@ import fs from 'fs'
 dotenv.config()
 
 const ollamaBaseUrl = process.env.OLLAMA_BASE_URL
-const defaultModel = 'llama2'
+const defaultModel = 'llava'
 
 function generateRequest(diff, model) {
   const url = getUrl()

@@ -27,3 +27,10 @@ If you run the script manually, the output will be printed to the console.
 The script can currently use models served locally by [Ollama](https://github.com/ollama/ollama) and
 it is possible to handpick a model by passing in the `--model` (`-m`) parameter when running the script.
 Make sure that the model is pulled down before trying to use it.
+
+## Image alt text generator
+
+The [image alt text generation script](./src/imageAltText.js) uses a multimodal model to describe an image in few words.
+
+The script can currently use models served locally by [Ollama](https://github.com/ollama/ollama) and defaults to `llava`.
+This will only work with a multimodal model and not just any LLM.

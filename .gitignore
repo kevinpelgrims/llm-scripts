@@ -1,5 +1,6 @@
 # Project
 .env
+/tmp
 
 # Node
 node_modules/

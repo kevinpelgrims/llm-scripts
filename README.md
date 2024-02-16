@@ -2,7 +2,14 @@
 
 This is a playground for scripts that use LLMs to generate content for software engineering or publishing to the web. 
 
+## Requirements
+
+Node is a requirement to run any of the JavaScript scripts.
+Everything was tested with Node v20 and NPM v10.
+
 ## Setup
+
+Run `npm install` in the root of the project.
 
 Make sure to create a `.env` file before running the scripts.
 The [`.env.example`](./.env.example) file contains the basic structure for the environment variables.

@@ -34,3 +34,11 @@ The [image alt text generation script](./src/imageAltText.js) uses a multimodal 
 
 The script can currently use models served locally by [Ollama](https://github.com/ollama/ollama) and defaults to `llava`.
 This will only work with a multimodal model and not just any LLM.
+
+## Blog post summary generator
+
+The [blog post summary generation script](./src/blogPostSummary.js) uses an LLM to summarize a blog post into a short paragraph.
+
+The script can currently use models served locally by [Ollama](https://github.com/ollama/ollama) and defaults to `llava`.
+
+Lots of work is needed (e.g. filtering out Front Matter before passing the text to the model) to make this production-ready.
